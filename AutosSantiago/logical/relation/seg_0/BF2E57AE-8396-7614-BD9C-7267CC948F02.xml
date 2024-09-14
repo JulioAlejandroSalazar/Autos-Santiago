@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMUNA_CLIENTE" directorySegmentName="seg_0" id="BF2E57AE-8396-7614-BD9C-7267CC948F02">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 13:47:57 UTC</createdTime>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="true"/>
+</engineerTo>
+<sourcePk>61943138-7ACB-32EA-7306-A89E6B0F5EDF</sourcePk>
+<targetPk>71EFE321-0865-BE78-68A0-B95244EB7462</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>359ED597-97D4-65D0-7669-A578CAFB584F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E87232E5-CC78-54F7-6A7D-986B5953F825</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

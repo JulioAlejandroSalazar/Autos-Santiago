@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E87232E5-CC78-54F7-6A7D-986B5953F825" name="CLIENTE">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 12:48:55 UTC</createdTime>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="4E47734C-4306-87FE-5A22-D6F3A8C6C2EC">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 12:49:08 UTC</createdTime>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,10,20</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E0ECF8A7-8857-000E-F0A7-C8DF9D91C89C">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 12:49:26 UTC</createdTime>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="3FFFE405-D19E-32CC-A281-2EDE7634A947">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 12:50:15 UTC</createdTime>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dirección" id="889F72A2-9314-A1C8-68C3-F45FF9874E89">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 12:51:02 UTC</createdTime>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_comuna" id="DCDB5294-3A4A-1228-2543-6FC8AB0B1E3A">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 13:47:57 UTC</createdTime>
+<generatorID>BF2E57AE-8396-7614-BD9C-7267CC948F02</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="true"/>
+</engineerTo>
+<referedAttribute>491B7091-F4E3-092F-A371-4EC889961B61</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,10,20</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_orden" id="6AEC14D7-CCEC-06CA-AA9E-3943BAFDE922">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 13:48:41 UTC</createdTime>
+<generatorID>59102EB8-C18E-CAFF-51EF-B4C9AF6AACEE</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="true"/>
+</engineerTo>
+<referedAttribute>BF38E0CF-9FC5-CF05-A7FF-3155795EA740</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,10,20</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71EFE321-0865-BE78-68A0-B95244EB7462" name="Cliente PK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 13:04:24 UTC</createdTime>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4E47734C-4306-87FE-5A22-D6F3A8C6C2EC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

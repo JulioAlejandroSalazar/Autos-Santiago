@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C75CF6FD-114C-FA3E-E9F1-930FCA65B7AD" name="REGIÓN">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 13:32:43 UTC</createdTime>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>E87232E5-CC78-54F7-6A7D-986B5953F825</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_región" id="F396489D-5298-4F27-669B-9FD85A114DC6">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 13:32:43 UTC</createdTime>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,10,20</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_region" id="284FB5A2-DB18-6EF2-9830-BF5677FE9BBA">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 13:32:43 UTC</createdTime>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="511F1148-A677-0ED7-ABAB-81DB7601EAA1" name="Cliente PK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 13:32:43 UTC</createdTime>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F396489D-5298-4F27-669B-9FD85A114DC6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

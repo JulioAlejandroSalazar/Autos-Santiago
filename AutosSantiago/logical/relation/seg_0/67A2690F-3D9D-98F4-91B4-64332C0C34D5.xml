@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ORDEN_VEHÍCULO" directorySegmentName="seg_0" id="67A2690F-3D9D-98F4-91B4-64332C0C34D5">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-08-30 13:48:58 UTC</createdTime>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<engineerTo>
+<item key="057656C2-CCAE-ED98-4C52-14B964B955B5" value="true"/>
+</engineerTo>
+<sourcePk>37E9450B-9E1C-5AD5-E11F-35B2AB707D66</sourcePk>
+<targetPk>2FEA9FCB-C80E-3BF8-659E-681FF71CBCCD</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C3FB82C2-04AD-0915-F4E0-1D2A562D6073</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>57F90094-F9D8-AC20-A171-E09137DB8C0C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

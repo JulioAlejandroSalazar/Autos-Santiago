@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20BF4D5B-A12E-D984-A014-654B9B973144" name="AÑO">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>A54032CE-D918-2EC4-CED1-9748178E38DC</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_año" id="73985198-4032-52A2-0497-A52E78244E25">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>B781C17E-073C-FA47-F662-6144445BA101</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,10,20</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="número_año" id="06C2FD47-E70D-09EE-05A4-3FDC075CCD8E">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>11A3FB9B-D852-56B2-5906-B157DD066994</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,10,20</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_seguimiento" id="C7C55BC1-2822-3BA4-EAB7-836E88D570A9">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-14 00:04:59 UTC</createdTime>
+<generatorID>319C815A-FE25-A74B-2287-7AC1F4D1D318</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB504BB2-5E00-9A32-07F3-CC283840F0BB" referredColumn="CA2D1E2F-A5DC-DB67-FDA8-FF497EBA4A93"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9473FC31-AE22-3332-B1EE-97E20316DB5F" name="AÑO_PKv1">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-14 00:04:59 UTC</createdTime>
+<generatorID>DF13B7E6-3AA8-4CEA-5B3F-D16EAD2720FF</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7C55BC1-2822-3BA4-EAB7-836E88D570A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2621F890-9475-0AF7-BEA2-7E21857DD415" name="AÑO_PK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>D2FB2C7E-E5B8-E5A5-A3E6-064D5CD571DC</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73985198-4032-52A2-0497-A52E78244E25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9B33D97-DE34-3F8C-A6E4-AEDA7D362D0C" name="AÑO_SEGUIMIENTO_FK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-14 00:04:59 UTC</createdTime>
+<generatorID>CB7ECE77-2C21-64BF-FA84-0109756D0528</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7C55BC1-2822-3BA4-EAB7-836E88D570A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

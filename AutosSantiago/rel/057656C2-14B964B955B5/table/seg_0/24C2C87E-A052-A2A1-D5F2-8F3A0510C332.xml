@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="24C2C87E-A052-A2A1-D5F2-8F3A0510C332" name="COMUNA">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>359ED597-97D4-65D0-7669-A578CAFB584F</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_comuna" id="4D8E6DF5-C91A-10F2-6A0E-56383D8D9055">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>491B7091-F4E3-092F-A371-4EC889961B61</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,10,20</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_comuna" id="38D2B46B-289A-6CF4-2CA3-AF1F54265659">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>CD164423-9F43-B77C-29DD-EFA1B7316C14</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGIÓN_id_región" id="12A59FC9-4E99-F0DE-DCAF-3D791B78CB96">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>DD9E65C3-5FD6-5A50-80F6-880CEBF4A2CA</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,10,20</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4FB4E91-C809-4648-4509-71A495B992B9" referredColumn="F97C7213-602B-5A7D-2BED-B7AC2ECA7CC2"/>
+</associations>
+</Column>
+<Column name="rut" id="E71FEAB8-DEDA-AD7E-E376-8029B524F361">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-14 00:04:59 UTC</createdTime>
+<generatorID>4E47734C-4306-87FE-5A22-D6F3A8C6C2EC</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B586182-3E90-F798-AFD1-60BE50406A84" referredColumn="466BFD20-91D2-405C-0FF5-23A6D4D01DAC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5B84DAE-3006-F198-FB33-0F9F013ACC50" name="COMUNA_PKv1">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-14 00:04:59 UTC</createdTime>
+<generatorID>71EFE321-0865-BE78-68A0-B95244EB7462</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E71FEAB8-DEDA-AD7E-E376-8029B524F361"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8F86C35-ECCC-647C-AD51-A7FDF7EA7E55" name="COMUNA_PK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>61943138-7ACB-32EA-7306-A89E6B0F5EDF</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D8E6DF5-C91A-10F2-6A0E-56383D8D9055"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1B56767-32E3-A675-66EC-A896B714B4F8" name="COMUNA_REGIÓN_FK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>03D9498D-EFAE-00ED-5F72-D18033E31098</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="12A59FC9-4E99-F0DE-DCAF-3D791B78CB96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E73FA12B-8488-D368-1488-B69288300310" name="COMUNA_CLIENTE_FK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-14 00:04:59 UTC</createdTime>
+<generatorID>4FDC17F9-6B5C-9EF1-7AE6-ED11F8AD1A79</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E71FEAB8-DEDA-AD7E-E376-8029B524F361"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

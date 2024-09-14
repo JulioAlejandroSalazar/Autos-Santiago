@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E6AFD83B-4199-F36E-831E-A49E954FC74E" containerWithKeyObject="F47382A1-B2AD-DE42-0DC7-034247A7914F" localFKIndex="B786063E-1DCF-CE97-BDF9-AC4A7D88ABD8" name="SEGUIMIENTO_MES_FK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>A50F2FDF-E354-A9C0-B089-4834D1E87033</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<referredTableLongName>MES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4408AC70-7D8E-12B0-8289-38BE0D387F47</referredTableID>
+<keyObject>E1A6BBA6-EE87-BAC0-911E-A9A09A363640</keyObject>
+<referredKeyID>E1A6BBA6-EE87-BAC0-911E-A9A09A363640</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_mes</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

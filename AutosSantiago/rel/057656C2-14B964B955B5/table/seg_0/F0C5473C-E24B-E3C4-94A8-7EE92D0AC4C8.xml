@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0C5473C-E24B-E3C4-94A8-7EE92D0AC4C8" name="ORDEN_ATENCIÓN">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>C3FB82C2-04AD-0915-F4E0-1D2A562D6073</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_orden" id="A9AEA8BC-2B1B-CA9A-AEE9-ABCAC0B3316C">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>BF38E0CF-9FC5-CF05-A7FF-3155795EA740</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>20</dataTypeScale>
+<ownDataTypeParameters>,10,20</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_servicio" id="52EAC9C1-3AE0-2DAF-56FB-707D982471FC">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>93446BA1-8849-72D8-2DC5-5FC57FF4BE17</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D2E7233-D145-8DEB-9531-0810B8C10725" name="ORDEN_ATENCIÓN_PK">
+<createdBy>Julio A</createdBy>
+<createdTime>2024-09-07 01:00:45 UTC</createdTime>
+<generatorID>37E9450B-9E1C-5AD5-E11F-35B2AB707D66</generatorID>
+<ownerDesignName>AutosSantiago</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9AEA8BC-2B1B-CA9A-AEE9-ABCAC0B3316C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
